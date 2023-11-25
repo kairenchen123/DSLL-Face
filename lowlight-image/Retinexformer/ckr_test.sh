@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0 python ckr_test.py \
+--arch_memory emnet_memory \
+--pooling_size 1 \
+--mem_size 9000 \
+--embed_dim 32 \
+--V_feat_dim 1 \
+--result_dir /mnt/data2/ckr/lowlight-image/Retinexformer/output/mem \
+--embed_dim 32 \
+--mem_weights /mnt/data2/ckr/lowlight-image/EMNet/pre_trained_logs/memory/memory_lolv1.pth \
+--input_dir /mnt/data2/ckr/mmdetection/data/Track1.2_testing_samples \
+--testing_top_k 1 \
+--save_images

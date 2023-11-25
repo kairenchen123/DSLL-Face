@@ -1,0 +1,5 @@
+[default]
+entity = 1563222520
+project = mmdetection
+base_url = https://api.wandb.ai
+
